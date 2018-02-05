@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./server/build",
+        "strict": true,
+        "sourceMap": true,
+        "typeRoots": [
+            "node_modules/@types"
+        ]
+    },
+    "include": [
+      "./server/src/*"
+    ],
+    "exclude": [
+        "dist",
+        "node_modules"
+    ]
+}
